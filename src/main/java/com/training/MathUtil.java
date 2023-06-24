@@ -1,5 +1,7 @@
 package com.training;
 
+import java.util.Random;
+
 public class MathUtil {
 
 	public static Integer add(int i, int j) {
@@ -16,6 +18,10 @@ public class MathUtil {
 
 	public static boolean isEven(int i) {
 		return i%2==0;
+	}
+	
+	public static int getRandom() {
+		return new Random().nextInt(100);
 	}
 
 }
